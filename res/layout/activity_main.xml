@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myView="http://schemas.android.com/apk/res/com.nix.customviews"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_view"
+        android:text="@string/hello_linux"
+        android:textColor="@android:color/white" />
+
+    <com.nix.customviews.ImageCheckedTextView
+        android:id="@+id/viewLinux"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        myView:viewSelector="@drawable/view_selector"
+        android:orientation="vertical"
+        myView:imgLogoSrc="@drawable/ic_linux"
+        myView:txtColor= "#FF5500"
+        myView:txtContent="Linux is cool" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_name_of_distros"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_view"
+        android:text="@string/hello_mac"
+        android:textColor="@android:color/white" />
+
+    <com.nix.customviews.ImageCheckedTextView
+        android:id="@+id/viewMac"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical"
+        myView:txtColor= "#FF55D4"
+        myView:viewSelector="@drawable/view_selector"
+        myView:imgLogoSrc="@drawable/ic_appel"
+        myView:txtContent="Mac is costly" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_view"
+        android:text="@string/hello_windows"
+        android:textColor="@android:color/white" />
+
+    <com.nix.customviews.ImageCheckedTextView
+        android:id="@+id/viewWindows"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical"
+        myView:txtColor= "#0055FF"
+        myView:viewSelector="@drawable/view_selector"
+        myView:imgLogoSrc="@drawable/ic_windows"
+        myView:txtContent="Windows is sucks" />
+
+</LinearLayout>

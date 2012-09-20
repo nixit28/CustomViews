@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageCheckedText">
+		<attr name="txtContent" format="string" />
+		<attr name="viewSelector" format="reference"></attr>
+		<attr name="imgLogoSrc" format="reference" />
+		<attr name="txtColor" format="color" />
+    </declare-styleable>
+</resources>

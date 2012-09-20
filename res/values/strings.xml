@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">CustomViews</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="customattribute">CustomAttribute</string>
+    <string name="hello_mac">Hello Mac</string>
+    <string name="hello_windows">Hello Windows</string>
+    <string name="enter_name_of_distros">Enter Name of Distros</string>
+    <string name="hello_linux">Hello Linux</string>
+
+</resources>
